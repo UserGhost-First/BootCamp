@@ -1,0 +1,142 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">TextToImage</S>
+      <Version N="Version">1.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Convert Text to Image. Redirect your output into variable/file and then convert it to image. With basic formattings make any text to an image easily. Image formats supported: png, bmp, gif, jpeg, tiff.</S>
+      <S N="Author">death.crafter</S>
+      <S N="CompanyName">death.crafter</S>
+      <S N="Copyright">(c) 2021 death.crafter. All rights reserved.</S>
+      <DT N="PublishedDate">2021-05-23T16:01:15-03:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-07-15T15:45:58.4112228-03:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://raw.githubusercontent.com/deathcrafter/Text-To-Image-Mod/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/deathcrafter/Text-To-Image-Mod</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Text-to-Image</S>
+          <S>Output-to-Image</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>ConvertTo-Image</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>ConvertTo-Image</S>
+                <S>ConvertTo-Image</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="2" />
+              <LST>
+                <S>ConvertTo-Image</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Initial release</S>
+      <Obj N="Dependencies" RefId="9">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2021 death.crafter. All rights reserved.</S>
+          <S N="description">Convert Text to Image. Redirect your output into variable/file and then convert it to image. With basic formattings make any text to an image easily. Image formats supported: png, bmp, gif, jpeg, tiff.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">Initial release</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">929</S>
+          <S N="downloadCount">946</S>
+          <S N="packageSize">6017</S>
+          <S N="published">23/05/2021 16:01:15 -03:00</S>
+          <S N="created">23/05/2021 16:01:15 -03:00</S>
+          <S N="lastUpdated">07/07/2025 15:20:00 -03:00</S>
+          <S N="tags">Text-to-Image Output-to-Image PSModule PSCmdlet_ConvertTo-Image PSCommand_ConvertTo-Image PSIncludes_Cmdlet PSFunction_ConvertTo-Image PSCommand_ConvertTo-Image PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-07-07T15:20:00Z</S>
+          <S N="NormalizedVersion">1.1.0</S>
+          <S N="Authors">death.crafter</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">TextToImage.nuspec|TextToImage.psd1|TextToImage.psm1</S>
+          <S N="GUID">8e0ccbbe-ca2e-4586-ae92-d87bca1bb610</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="CompanyName">death.crafter</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\luizcarvalho\Documents\PowerShell\Modules\TextToImage\1.1</S>
+    </MS>
+  </Obj>
+</Objs>
